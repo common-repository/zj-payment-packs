@@ -1,0 +1,87 @@
+# Translation of Plugins - ZJ Payment Packs - Stable Readme (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - ZJ Payment Packs - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - ZJ Payment Packs - Stable Readme (latest release)\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Let the payment methods of ECPay, Neweb and Line Pay support to wooCommerce, easy digital downloads and mycred."
+msgstr "可讓wooCommerce, Easy Digital Downloads 以及myCred使用綠界、藍新、LinePay等付款方式."
+
+#. Found in faq paragraph.
+msgid ""
+"What is the test mode in payment?\n"
+"The test mode is for testing the transcation before you use the live mode."
+msgstr "付費中的測試模式是什麼?"
+
+#. Found in faq paragraph.
+msgid ""
+"Why cannot I enable ECPay or Neweb payment method?\n"
+"For enabling it, some fields need to fill to complete setup, then you can enable it."
+msgstr "為何我不能啟用綠界或者藍新的付費方式?"
+"為了啟用這些付費方式, 有些欄位必須完成填寫才能啟用."
+
+#. Found in faq paragraph.
+msgid ""
+"After I installed the plugin, what should I do?\n"
+"Go to Settings-&gt;ZJ Payment Packs, then enable your wordpress order systems like woocommerce, easy digital downloads, buycred and payment methods."
+msgstr "到[設定][ZJ金流]然後啟用您的wordpress訂單系統如wooCommerce,, easy digital downloads, buycred以及支付方式."
+
+#. Found in installation paragraph.
+msgid "Installation procedure:"
+msgstr "安裝程序:"
+
+#. Found in installation list item.
+msgid "Go to the \"Settings\"-\"ZJ Payment Packs\" menu item and setup the url-to-plugins list to improve the page loading performance."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate \"ZJ Payment Packs\" plugin via 'Plugins' menu in WordPress admin menu. "
+msgstr "透過WordPress管理頁面中的'外掛'選單啟用\"ZJ金流\"."
+
+#. Found in installation list item.
+msgid "Extract \"zj-payment-packs.zip\" archive content to the \"/wp-content/plugins/zj-page-speedup\" directory."
+msgstr "解壓縮檔案\"zj-payment-packs.zip\"內容到目錄\"/wp-content/plugins/zj-page-speedup\"之下"
+
+#. Found in installation list item.
+msgid "Deactivate plugin if you have the previous version installed."
+msgstr "停用本外掛如果您安裝了前一版本."
+
+#. Found in description paragraph.
+msgid ""
+"wooCommerce, easy digital downlaods, buycred of mycred support payment methods like paypal but doesn't support other payment methods of Taiwan.\n"
+"The plugin can let ECpay, Neweb and Line Pay avaliable to these. And more payment methods and eCommerce systems can be added to support in the future.\n"
+"The plugin focus on payment for virtual products sale such as eLearning, online services, etc."
+msgstr "wooCommerce, easy digital downlaods, buycred的mycred都支持paypal付費但不支持台灣廠商的付費."
+"本外掛可讓綠界、藍新、Line Pay都可使用以上系統. 未來還可以支持更多的電商系統以及付費方式."
+"本外掛著重於虛擬商品銷售如線上教學、線上服務等."
+
+#. Screenshot description.
+msgid "buycred of mycred payment screen with ZJ payment methods"
+msgstr "使用ZJ金流服務中的myCred之buycred付費畫面"
+
+#. Screenshot description.
+msgid "Easy digital downloads payment screen with ZJ payment methods"
+msgstr "使用ZJ金流服務中的Easy Digital Downloads付費畫面"
+
+#. Screenshot description.
+msgid "wooCommerce payment screen with ZJ payment methods"
+msgstr "使用ZJ金流服務中的wooCommerce付費畫面"
+
+#. Screenshot description.
+msgid "ZJ Payment Packs setting page, configure what the payment methods you need"
+msgstr "ZJ金流設置頁面, 設定您需要的付費方式"
+
+#. Found in changelog paragraph.
+#, gp-priority: low
+msgid "The initial version."
+msgstr "初始版本"
+

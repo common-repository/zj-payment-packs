@@ -1,0 +1,234 @@
+# Copyright (C) 2022 德順工作室
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: ZJ-Payment-Packs 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zj-payment-packs\n"
+"POT-Creation-Date: 2022-05-20T14:44:16+00:00\n"
+"PO-Revision-Date: 2022-05-20 22:44+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Domain: zj-payment-packs\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Plugin Name of the plugin
+#: admin/admin.php:178 admin/admin.php:182
+msgid "ZJ Payment Packs"
+msgstr "ZJ金流整合"
+
+#. Plugin URI of the plugin
+msgid "http://demo-cj.net/zj-payment-packs/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Let the payment methods of ECPay, Neweb and Line Pay support to wooCommerce, "
+"easy digital downloads and mycred."
+msgstr ""
+"可讓綠界, 藍新, Line Pay等支付方式支援wooCommerce, easy digital downloads以及"
+"mycred系統."
+
+#. Author of the plugin
+msgid "DS workshop"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://demo-cj.net/"
+msgstr ""
+
+#: admin/admin.php:186
+msgid "Please choose order systems to use:"
+msgstr "請選擇要使用的訂單系統:"
+
+#: admin/admin.php:198
+msgid "Please choose payment vendors to use:"
+msgstr "請選擇要使用的付費廠家:"
+
+#: includes/lib/fields/html_fields.php:88
+msgid "Enable"
+msgstr "啟用"
+
+#: includes/lib/fields/html_fields.php:94
+msgid "Test Mode"
+msgstr "測試模式"
+
+#: includes/lib/woocommerce/woo.php:126
+msgid "Enable/Disable"
+msgstr "啟用"
+
+#: includes/lib/woocommerce/woo.php:127
+msgid "Enable %s"
+msgstr "啟用 %s"
+
+#: includes/lib/woocommerce/woo.php:132
+msgid "Title"
+msgstr "標題"
+
+#: includes/lib/woocommerce/woo.php:135
+msgid "The title of the payment method shows when checkout."
+msgstr "於結帳時顯示付款方式的標題."
+
+#: includes/lib/woocommerce/woo.php:139
+msgid "Order button text"
+msgstr "訂購按鈕文字"
+
+#: includes/lib/woocommerce/woo.php:141
+msgid "Pay via ZJ Pyment Pack"
+msgstr "透過ZJ金流整合付款"
+
+#: includes/lib/woocommerce/woo.php:143
+msgid "The text on button for checkout of specified payment method."
+msgstr "結帳時特定付款方式上所顯示的按鈕上文字."
+
+#: includes/lib/woocommerce/woo.php:146
+msgid "Description"
+msgstr "描述"
+
+#: includes/lib/woocommerce/woo.php:150
+msgid "The description of the payment method shows when checkout."
+msgstr "於結帳時顯示於付款方式的描述."
+
+#: includes/order_systems/OrderSystem.php:167
+msgid "Order Prefix"
+msgstr "訂單號碼前綴"
+
+#: includes/order_systems/OrderSystem.php:169
+msgid "The prefix before the order id"
+msgstr "付費時訂單號碼之前的顯示字串"
+
+#: includes/order_systems/OrderSystem_buycred.php:68
+msgid "buyCred of myCred"
+msgstr "buyCred之myCred"
+
+#: includes/order_systems/OrderSystem_EDD.php:52
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/order_systems/OrderSystem_woocommerce.php:69
+msgid "wooCommerce"
+msgstr ""
+
+#: includes/order_systems/OrderSystem_woocommerce.php:123
+msgid "Payment completed"
+msgstr "付款完成"
+
+#: includes/PaymentSystem.php:65
+msgid "ZJ Payment Pack"
+msgstr "ZJ金流整合"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:283
+msgid "ECPay"
+msgstr "綠界金流"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:285
+msgid "ZJ Payment pack with ECpay"
+msgstr "ZJ金流整合之綠界金流"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:298
+msgid ""
+"Enabling needs to fill merchant id, hash_key and hash_iv unless using test "
+"mode"
+msgstr "啟用需要填寫商店id, hash key, hash iv, 除了在測試模式之下"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:301
+#: includes/payment_vendors/PaymentVendor_linepay.php:185
+#: includes/payment_vendors/PaymentVendor_neweb.php:204
+msgid "Payment Methods"
+msgstr "付款方式"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:305
+#: includes/payment_vendors/PaymentVendor_neweb.php:208
+msgid "Credit Card"
+msgstr "信用卡"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:308
+#: includes/payment_vendors/PaymentVendor_neweb.php:211
+msgid "Web ATM"
+msgstr "網路轉帳"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:311
+#: includes/payment_vendors/PaymentVendor_ecpay.php:314
+#: includes/payment_vendors/PaymentVendor_ecpay.php:317
+#: includes/payment_vendors/PaymentVendor_ecpay.php:320
+#: includes/payment_vendors/PaymentVendor_ecpay.php:323
+#: includes/payment_vendors/PaymentVendor_neweb.php:214
+#: includes/payment_vendors/PaymentVendor_neweb.php:217
+#: includes/payment_vendors/PaymentVendor_neweb.php:220
+#: includes/payment_vendors/PaymentVendor_neweb.php:223
+#: includes/payment_vendors/PaymentVendor_neweb.php:226
+#: includes/payment_vendors/PaymentVendor_neweb.php:229
+msgid "Credit %s months"
+msgstr "信用卡%s期付款"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:328
+#: includes/payment_vendors/PaymentVendor_neweb.php:234
+msgid "Merchant ID"
+msgstr "商店ID"
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:333
+#: includes/payment_vendors/PaymentVendor_neweb.php:239
+msgid "Hash Key"
+msgstr ""
+
+#: includes/payment_vendors/PaymentVendor_ecpay.php:338
+#: includes/payment_vendors/PaymentVendor_neweb.php:244
+msgid "Hash IV"
+msgstr ""
+
+#: includes/payment_vendors/PaymentVendor_linepay.php:77
+msgid "No Order Id received."
+msgstr "沒收到訂單Id."
+
+#: includes/payment_vendors/PaymentVendor_linepay.php:123
+msgid "Authorization Expire Date is %s."
+msgstr "身份認證過期日期為%s."
+
+#: includes/payment_vendors/PaymentVendor_linepay.php:169
+#: includes/payment_vendors/PaymentVendor_linepay.php:189
+msgid "Line Pay"
+msgstr "Line支付"
+
+#: includes/payment_vendors/PaymentVendor_linepay.php:171
+msgid "ZJ Payment pack with Line Pay"
+msgstr "ZJ金流整合之Line支付"
+
+#: includes/payment_vendors/PaymentVendor_linepay.php:182
+msgid ""
+"Enabling needs to fill API channel ID and API channel key unless using test "
+"mode, test settings also avaliable "
+msgstr ""
+"啟用需要填寫API channel ID以及API channel key, 亦可使用測試的id及key來使用測"
+"試模式 "
+
+#: includes/payment_vendors/PaymentVendor_linepay.php:194
+msgid "API Channel ID"
+msgstr ""
+
+#: includes/payment_vendors/PaymentVendor_linepay.php:199
+msgid "API Channel Key"
+msgstr ""
+
+#: includes/payment_vendors/PaymentVendor_neweb.php:186
+msgid "Neweb"
+msgstr "藍新金流"
+
+#: includes/payment_vendors/PaymentVendor_neweb.php:188
+msgid "ZJ Payment pack with Neweb."
+msgstr "ZJ金流整合之藍新支付."
+
+#: includes/payment_vendors/PaymentVendor_neweb.php:201
+msgid ""
+"Enabling needs to fill merchant id, hash_key and hash_iv including test mode"
+msgstr "啟用需要填寫商店id, hash key, hash iv, 包含在測試模式之下"
+
+#: includes/payment_vendors/PaymentVendor_neweb.php:366
+msgid "Doing refunding: "
+msgstr ""
+
+#~ msgid "Pay via ECPay Credit"
+#~ msgstr "透過綠界信用卡支付"

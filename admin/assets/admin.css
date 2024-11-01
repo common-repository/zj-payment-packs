@@ -1,0 +1,58 @@
+.table {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+th.item,
+td.item {
+  width: 100px;
+  margin: 15px;
+  line-height: 2.5em;
+  /* center checkbox horizontally */
+  text-align: center;
+  /* center checkbox vertically */
+  vertical-align: middle;
+}
+
+td.label {
+  width: 150px;
+  margin: 15px;
+  line-height: 2.5em;
+  /* center checkbox horizontally */
+  text-align: left;
+  /* center checkbox vertically */
+  vertical-align: middle;
+}
+
+td.label label {
+  position: relative;
+  /* padding-right: 24px; */
+  padding: 20px 10px 20px px 0;
+}
+
+.order_system_container,
+.payment_container,
+.invoice_systems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order_system,
+.payment_method,
+.invoice_system {
+  display: flex;
+}
+
+.order_system_item {
+  margin: 15px;
+  /* center checkbox horizontally */
+  text-align: center;
+  /* center checkbox vertically */
+  vertical-align: middle;
+}
+
+.invoice_container .invoice_systems,
+.invoice_container .item {
+  margin: 15px;
+}
